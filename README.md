@@ -1,2 +1,1 @@
-# 0x1E. C - Search Algorithms
-
+# ALX-LOW_LEVEL_PROGRAMMING
