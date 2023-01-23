@@ -498,7 +498,7 @@ julien@ubuntu:~/0x06$
 
 #### 10. A dream doesn't become reality through magic; it takes sweat, determination and hard work
 
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/21b4fc5c1b5df84e6ae4fe8807aa359d929e748a.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230123T064041Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=cc0d98289ea8cb371e126ade8eac6f042206121d1e5ed6f8a008bdd8509531ff)
+![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/21b4fc5c1b5df84e6ae4fe8807aa359d929e748a.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230123T064041Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=cc0d98289ea8cb371e126ade8eac6f042206121d1e5ed6f8a008bdd8509531ff.gif)
 
 * Add one line to [this code](https://github.com/holbertonschool/make_magic_happen/blob/master/magic.c), so that the program prints `a[2] = 98`, followed by a new line.
 
