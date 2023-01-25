@@ -107,7 +107,6 @@ julien@ubuntu:~/0x0d. structures, typedef$
 ```
 
 #### 2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad
-
 ![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2021/3/bb940d2ab10c3a4740f3c154cb980133e65e438e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230125T012144Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=22822879eaa395406782bdba4b6aa5dde285e54b3352bc192ae0b058c0aac398)
 
 Write a function that prints a `struct dog`
@@ -146,7 +145,6 @@ julien@ubuntu:~/0x0d. structures, typedef$
 ```
 
 #### 3. Outside of a dog, a book is a man's best friend. Inside of a dog it's too dark to read
-
 ![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2021/3/9ef84b3fd1636992602868e45d3062719326de0e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230125T012144Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=95744f4a9ef91ca291c890f1d8dfe6e1200e3ee1819d0c29a495f042ca9af7ac)
 
 Define a new type `dog_t` as a new name for the type `struct dog`.
@@ -178,7 +176,6 @@ julien@ubuntu:~/0x0d. structures, typedef$
 ```
 
 #### 4. A door is what a dog is perpetually on the wrong side of
-
 ![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2021/3/8c1e394774fb8d25e0bbbb73a75ebc7de0c80745.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230125T012144Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=cb39d5dfcbe95ec020da501a52376774c9e9431760fa95eaf66fb796d0a3dd47)
 
 Write a function that creates a new dog.
@@ -212,7 +209,6 @@ julien@ubuntu:~/0x0d. structures, typedef$
 ```
 
 #### 5. How many legs does a dog have if you call his tail a leg? Four. Saying that a tail is a leg doesn't make it a leg
-
 ![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2021/3/683112dbdd805c36a9b366cede0653dd80da5ec3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230125T012145Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b93938ae175779d90c7208ef8343e433cafd8635c8b09063dc1d0f4e6cf40858)
 
 Write a function that frees dogs.
