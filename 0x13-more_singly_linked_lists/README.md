@@ -453,7 +453,7 @@ julien@ubuntu:~/0x13. More singly linked lists$ valgrind ./g
 ==4369== For counts of detected and suppressed errors, rerun with: -v
 ==4369== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 julien@ubuntu:~/0x13. More singly linked lists$
-
+```
 
 #### 7. Get node at index
 Write a function that returns the nth node of a `listint_t` linked list.
@@ -624,11 +624,13 @@ julien@ubuntu:~/0x13. More singly linked lists$
 ```
 
 #### 10. Delete at index
-Write a function that deletes the node at index index of a `listint_t` linked list.
+Write a function that deletes the node at index `index` of a `listint_t` linked list.
 
-Prototype: int delete_nodeint_at_index(listint_t **head, unsigned int index);
-where index is the index of the node that should be deleted. Index starts at 0
-Returns: 1 if it succeeded, -1 if it failed
+* Prototype: `int delete_nodeint_at_index(listint_t **head, unsigned int index);`
+* where index is the `index` of the node that should be deleted. Index starts at `0`
+* Returns: `1` if it succeeded, `-1` if it failed
+
+```
 julien@ubuntu:~/0x13. More singly linked lists$ cat 10-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -771,13 +773,15 @@ julien@ubuntu:~/0x13. More singly linked lists$
 ```
 
 #### 11. Reverse list
-Write a function that reverses a listint_t linked list.
+Write a function that reverses a `listint_t` linked list.
 
-Prototype: listint_t *reverse_listint(listint_t **head);
-Returns: a pointer to the first node of the reversed list
-You are not allowed to use more than 1 loop.
-You are not allowed to use malloc, free or arrays
-You can only declare a maximum of two variables in your function
+* Prototype: `listint_t *reverse_listint(listint_t **head);`
+* Returns: a pointer to the first node of the reversed list
+* You are not allowed to use more than `1` loop.
+* You are not allowed to use `malloc, free` or arrays
+* You can only declare a maximum of two variables in your function
+
+```
 julien@ubuntu:~/0x13. More singly linked lists$ cat 100-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -844,14 +848,16 @@ julien@ubuntu:~/0x13. More singly linked lists$
 ```
 
 #### 12. Print (safe version)
-Write a function that prints a listint_t linked list.
+Write a function that prints a `listint_t` linked list.
 
-Prototype: size_t print_listint_safe(const listint_t *head);
-Returns: the number of nodes in the list
-This function can print lists with a loop
-You should go through the list only once
-If the function fails, exit the program with status 98
-Output format: see example
+* Prototype: `size_t print_listint_safe(const listint_t *head);`
+* Returns: the number of nodes in the list
+* This function can print lists with a loop
+* You should go through the list only once
+* If the function fails, exit the program with status `98`
+* Output format: see example
+
+```
 julien@ubuntu:~/0x13. More singly linked lists$ cat 101-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -914,13 +920,15 @@ julien@ubuntu:~/0x13. More singly linked lists$
 ```
 
 #### 13. Free (safe version)
-Write a function that frees a listint_t list.
+Write a function that frees a `listint_t` list.
 
-Prototype: size_t free_listint_safe(listint_t **h);
-This function can free lists with a loop
-You should go though the list only once
-Returns: the size of the list that was free’d
-The function sets the head to NULL
+* Prototype: `size_t free_listint_safe(listint_t **h);`
+* This function can free lists with a loop
+* You should go though the list only once
+* Returns: the size of the list that was free’d
+* The function sets the `head` to `NULL`
+
+```
 julien@ubuntu:~/0x13. More singly linked lists$ cat 102-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -989,10 +997,12 @@ julien@ubuntu:~/0x13. More singly linked lists$
 #### 14. Find the loop
 Write a function that finds the loop in a linked list.
 
-Prototype: listint_t *find_listint_loop(listint_t *head);
-Returns: The address of the node where the loop starts, or NULL if there is no loop
-You are not allowed to use malloc, free or arrays
-You can only declare a maximum of two variables in your function
+* Prototype: `listint_t *find_listint_loop(listint_t *head);`
+* Returns: The address of the node where the loop starts, or `NULL` if there is no loop
+* You are not allowed to use `malloc, free` or arrays
+* You can only declare a maximum of two variables in your function
+
+```
 julien@ubuntu:~/0x13. More singly linked lists$ cat 103-main.c 
 #include <stdlib.h>
 #include <string.h>
